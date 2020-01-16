@@ -1,0 +1,173 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body{
+    background: #000000;
+    font-family: Poppins,sans-serif;
+}
+
+.create-blog{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.create-blog h1{
+    margin-bottom: 20px;
+}
+#title{
+    width:350px;
+    height:75px;
+    margin-bottom:20px;
+    border-radius: 27px;
+    font-size:1.5em;
+    font-family: Poppins,sans-serif;
+    
+}
+
+input::placeholder-shown{
+  opacity: 35%;
+  
+}
+
+textarea::placeholder-shown{
+    padding-top:0px;
+    opacity: 35%;
+
+}
+
+input{
+    text-indent:10%;
+}
+
+
+.write-blog{
+    resize: none;
+    font-size: 1.5em;
+    margin-bottom:20px;
+    height: 200px;
+    border-radius: 30px;
+    width:800px;
+    padding-top:25px;
+    padding-left:30px;
+    font-family: Poppins,sans-serif;
+    
+  
+}
+
+.create-btn{
+    background-color: #FEE101;
+    border-radius: 30px;
+    width:200px;
+    height:50px;
+    margin-top:20px;
+    color:black;
+    position: relative;
+    border: none;
+    top:19%;
+    text-transform: uppercase;
+    font-size:1.25em;
+
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    margin-left:30px;
+  }
+  
+.choose-file {
+    color:black;    
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    width:170px;
+    height:30px;
+    font-family: Poppins,sans-serif;
+    font-size: 0.8em;
+  }
+
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  .custom-file-input::before {
+    content: 'Choose file';
+    display: inline-block;
+    color:black;    
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    width:170px;
+    height:30px;
+    font-family: Poppins,sans-serif;
+    font-size: 0.95em;
+    padding: 5px 0px 0px 30px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    margin-left: 20px;
+    
+  }
+  /* .custom-file-input:hover::before {
+    border-color: black;
+  } */
+  /* .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  } */
+
+
+.createblog-buttons{
+    display: flex;
+}
+
+
+select {
+	background:white;
+	border: 1px solid #F0F3FB;
+	border-radius: 30px;
+  width: 170px;
+  height: 30px;
+  font-size: 0.80em;
+  font-family: Poppins,sans-serif;
+  color:black;
+  padding-left:30px;
+
+	/* Here's the code we need */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	 -o-appearance: none;
+		appearance: none;
+}
+
+.select-wrapper {
+	position: relative;	
+}
+
+.select-wrapper::after {
+	font-family: FontAwesome;
+  	content: '\f107'; 
+  	font-size: 28px;
+  	position: absolute;
+  	top: 0px;
+    right:10px;
+    color:black;
+  	pointer-events: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.upload-file button{
+  background:white;
+	border: 1px solid #F0F3FB;
+	border-radius: 30px;
+  width: 170px;
+  height: 30px;
+  font-size: 0.80em;
+  font-family: Poppins,sans-serif;
+  color:black;
+  padding-left:8px;
+  
+}

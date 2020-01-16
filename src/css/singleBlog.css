@@ -1,0 +1,36 @@
+body{
+    background:black;
+}
+
+.title{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.footer{
+    margin: 0;
+    opacity: 35%;
+}
+
+.like-button{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0.7em;
+  }
+
+.like-button:hover{
+    background-color: blue;
+    color: white;
+  }

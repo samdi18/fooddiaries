@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-family: Poppins,sans-serif;
+    color:white;
+    min-height: 100vh;
+
+}
+
+.home{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1366px 768px;
+    min-height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 40px;
+}
+
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color:white;
+    text-decoration: none;
+}
+
+.brand-logo-name{
+    padding:0;
+}
+
+.text-pink{
+    color:#F52962;
+}
+
+
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.login-nav{
+    margin-left:2em;
+}
+      
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover{
+    color: #adadad;
+}
+
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+}
+
+.active-pink {
+    font-weight: bold;
+}
+
+
+
